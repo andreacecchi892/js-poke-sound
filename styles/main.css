@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+}
+
+.poke-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.poke-starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.poke-starter figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+img.animated {
+  display: none;
+}
+
+.key {
+  border-radius: 8px;
+  box-shadow: 1px 8px 20px lightgray;
+  padding: 8px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
